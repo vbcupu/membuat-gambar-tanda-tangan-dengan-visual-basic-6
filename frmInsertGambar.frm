@@ -3,7 +3,7 @@ Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "comdlg32.ocx"
 Begin VB.Form frmInsertGambar 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "GAMBAR "
-   ClientHeight    =   3405
+   ClientHeight    =   3675
    ClientLeft      =   45
    ClientTop       =   390
    ClientWidth     =   7170
@@ -11,7 +11,7 @@ Begin VB.Form frmInsertGambar
    LinkTopic       =   "Form2"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   3405
+   ScaleHeight     =   3675
    ScaleWidth      =   7170
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton loadFolder 
@@ -19,7 +19,7 @@ Begin VB.Form frmInsertGambar
       Height          =   375
       Left            =   3840
       TabIndex        =   12
-      Top             =   2880
+      Top             =   3000
       Width           =   495
    End
    Begin MSComDlg.CommonDialog cb1 
@@ -35,7 +35,7 @@ Begin VB.Form frmInsertGambar
       Left            =   0
       MultiLine       =   -1  'True
       TabIndex        =   11
-      Top             =   2880
+      Top             =   3000
       Width           =   3735
    End
    Begin VB.Frame frawarna 
@@ -98,7 +98,7 @@ Begin VB.Form frmInsertGambar
       Height          =   495
       Left            =   6120
       TabIndex        =   5
-      Top             =   2880
+      Top             =   3000
       Width           =   855
    End
    Begin VB.CommandButton cmdSimpan 
@@ -106,7 +106,7 @@ Begin VB.Form frmInsertGambar
       Height          =   495
       Left            =   5160
       TabIndex        =   4
-      Top             =   2880
+      Top             =   3000
       Width           =   855
    End
    Begin VB.Frame fraInsertGambar 
@@ -175,6 +175,14 @@ Begin VB.Form frmInsertGambar
          Top             =   2400
          Width           =   975
       End
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Nama File (klik tombol disamping textbox)"
+      Height          =   375
+      Left            =   0
+      TabIndex        =   13
+      Top             =   2760
+      Width           =   3735
    End
 End
 Attribute VB_Name = "frmInsertGambar"
