@@ -218,6 +218,7 @@ End Sub
 
 Private Sub cmdSimpan_Click()
     If txtNamaFile.Text = "" Then Call MsgBox("Pilih Nama Folder dan File terlebih Dahulu"): Exit Sub
+    
     Call SavePicture(Picture1.Image, txtNamaFile.Text)
     Call MsgBox("Berhasil")
 End Sub
